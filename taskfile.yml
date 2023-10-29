@@ -1,0 +1,7 @@
+version: "3"
+tasks:
+  default:
+    dotenv:
+      - .env
+    cmds:
+      - poetry run python app
